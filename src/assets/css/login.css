@@ -1,0 +1,60 @@
+html {
+  width: 100%;
+  height: 100%;
+  background: #FBFDFF; }
+
+.container {
+  width: 100%; }
+
+.login_input {
+  margin-top: 100px;
+  width: 100%;
+  border: 1px solid #efefef; }
+  .login_input .verify {
+    position: relative; }
+    .login_input .verify span {
+      position: absolute;
+      right: 40px;
+      line-height: 90px;
+      height: 100px;
+      color: #409BF8; }
+  .login_input div {
+    padding-left: 40px;
+    background: #fff;
+    font-size: 32px;
+    box-sizing: border-box; }
+    .login_input div input {
+      width: 100%;
+      height: 100px;
+      line-height: 50px;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid #efefef;
+      color: #999;
+      font-size: 32px; }
+    .login_input div input::-webkit-input-placeholder, .login_input div textarea::-webkit-input-placeholder {
+      color: #999;
+      font-size: 32px; }
+    .login_input div input:-moz-placeholder, .login_input div textarea:-moz-placeholder {
+      color: #999;
+      font-size: 32px; }
+    .login_input div input::-moz-placeholder, .login_input div textarea::-moz-placeholder {
+      color: #999;
+      font-size: 32px; }
+    .login_input div input:-ms-input-placeholder, .login_input div textarea:-ms-input-placeholder {
+      color: #999;
+      font-size: 32px; }
+
+.login_btn {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 690px;
+  background: #409BF8;
+  border-radius: 44px;
+  height: 88px;
+  line-height: 88px;
+  text-align: center;
+  font-size: 40px;
+  color: #fff; }
+
+/*# sourceMappingURL=login.css.map */

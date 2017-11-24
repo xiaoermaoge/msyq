@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  background: #FBFDFF; }
+
+.loans_kind {
+  width: 100%;
+  height: 208px;
+  padding: 36px 32px 40px 24px;
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 1px solid #efefef; }
+  .loans_kind .kind_pic {
+    width: 132px;
+    height: 132px; }
+    .loans_kind .kind_pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .loans_kind .kind_text div:last-child {
+    max-width: 360px; }
+  .loans_kind .kind_text {
+    margin-left: 24px;
+    font-size: 26px;
+    color: #666; }
+    .loans_kind .kind_text .kind_name {
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 6px; }
+  .loans_kind .kind_price {
+    text-align: right;
+    font-size: 26px;
+    position: absolute;
+    right: 32px;
+    top: 36px;
+    color: #666; }
+    .loans_kind .kind_price .kind_price_count {
+      font-size: 48px;
+      color: #409BF8; }
+
+.loan_advantage {
+  width: 100%;
+  height: 240px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #efefef; }
+  .loan_advantage .advantage_list {
+    text-align: center;
+    font-size: 28px;
+    color: #409BF8;
+    letter-spacing: 2px; }
+    .loan_advantage .advantage_list .text_introduce {
+      font-size: 28px;
+      color: #333;
+      margin: 10px 0; }
+
+.loan_condition {
+  background: #FBFDFF;
+  width: 100%;
+  height: 100%;
+  padding: 36px 20px 0 24px;
+  box-sizing: border-box; }
+  .loan_condition .loan_condition_list:first-child {
+    margin-top: 0px; }
+  .loan_condition .loan_condition_list:last-child {
+    padding-bottom: 200px; }
+  .loan_condition .loan_condition_list {
+    margin-top: 28px;
+    font-size: 26px;
+    color: #999; }
+    .loan_condition .loan_condition_list .condition_list_way {
+      font-size: 26px;
+      color: #333; }
+    .loan_condition .loan_condition_list span {
+      display: inline-block;
+      margin-right: 40px; }
+    .loan_condition .loan_condition_list .condition_list_way + div {
+      margin-top: 10px; }
+
+.loan_btn {
+  background: #FBFDFF;
+  width: 100%;
+  font-size: 20px;
+  color: #999;
+  text-align: center;
+  position: fixed;
+  height: 174px;
+  bottom: 0; }
+  .loan_btn .btn_button {
+    margin: auto;
+    margin-top: 20px;
+    width: 690px;
+    background: #409BF8;
+    border-radius: 44px;
+    height: 88px;
+    line-height: 88px;
+    font-size: 40px;
+    color: #fff; }
+
+/*# sourceMappingURL=loans_kind.css.map */

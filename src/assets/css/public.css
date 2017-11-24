@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft Yahei", Adobe Heiti Std, Arial, sans-serif;
+  background: #fff;
+  font-size: 16px; }
+
+ul, ol {
+  list-style-type: none; }
+
+em, i {
+  font-style: normal; }
+
+input, button, select, textarea {
+  outline: none; }
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset; }
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.clear-f:after {
+  clear: both;
+  display: table;
+  content: '';
+  overflow: hidden;
+  height: 0; }
+
+.f-l {
+  float: left; }
+
+.f-r {
+  float: right; }
+
+.flex {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex; }
+
+.just_content_center {
+  justify-content: center; }
+
+.space_around {
+  justify-content: space-around; }
+
+.align_item_center {
+  align-items: center; }
+
+/*# sourceMappingURL=public.css.map */
